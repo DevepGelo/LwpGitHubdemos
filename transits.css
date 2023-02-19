@@ -1,0 +1,7 @@
+db.correct();
+    String sql = "select * from user where username=? and password=?";
+    try {
+	pst = conn.prepareStatement(sql);
+	pst.setString(1, view.getUsername());
+	pst.setString(2, view.getPassowrd());
+	rs = pst.executeQuery();
