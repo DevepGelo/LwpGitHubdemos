@@ -1,1 +1,6 @@
 
+check out feature in Java
+
+    MapStrings, Obeject> paramsPriceIdList1 = new HashMap<>();
+paramsPriceIdList.put("price", price_idl);
+paramsPriceIdList1.put("quatity*, 2);   
